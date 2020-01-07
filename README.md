@@ -13,3 +13,7 @@ Building a RESTful API for an uptime monitoring application. An "uptime monitor"
 # Notes
 1. Send SMS via Twilio.
 2. Use the filesystem as a key-value store of JSON docs.
+
+# Scripts
+## Create ssl certificate: 
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
