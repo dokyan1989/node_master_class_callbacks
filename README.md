@@ -11,7 +11,7 @@ Building a RESTful API for an uptime monitoring application. An "uptime monitor"
 7. In the background, workers perform all the "checks" at the appropriate times, and send alerts to the users when a check changes its state from "up" to "down", or vice versa.
 
 # Notes
-1. Send SMS via Twilio.
+1. Send SMS via Twilio. (pass: abCD12--123456)
 2. Use the filesystem as a key-value store of JSON docs.
 
 # Scripts
