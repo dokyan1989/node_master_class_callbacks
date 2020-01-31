@@ -27,7 +27,7 @@ app.init = function (callback) {
     }, 50);
 
     // Fork the process
-    for (var i = 0; i < os.cpus.length; i++) {
+    for (var i = 0; i < os.cpus().length; i++) {
       cluster.fork();
     }
   } else {
